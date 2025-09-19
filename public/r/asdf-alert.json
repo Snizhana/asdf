@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "asdf-alert",
+  "type": "registry:component",
+  "title": "Asdf Alert",
+  "description": "An alert component with asdf text.",
+  "registryDependencies": [
+    "alert"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york/components/asdf-alert/asdf-alert.tsx",
+      "content": "import \"./example-card.css\";\n\nexport function ASDFAlert() {\n  return <div>asdf alert</div>;\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}
