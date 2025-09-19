@@ -1,5 +1,5 @@
 import * as React from "react";
-import { OpenInV0Button } from "@/components/open-in-v0-button";
+import { OpenInRegistry } from "@/components/open-in-registry";
 import { ASDFAlert } from "@/registry/new-york/components/asdf-alert/asdf-alert";
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
@@ -19,9 +19,9 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               A simple component showing style changes.
             </h2>
-            <OpenInV0Button name="complex-component" className="w-fit" />
+            <OpenInRegistry name="asdf-alert" className="w-fit" />
           </div>
-          <ASDFAlert color="red" level={300} />
+          <ASDFAlert color="blue" level={300} />
         </div>
       </main>
     </div>
